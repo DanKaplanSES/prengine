@@ -1,11 +1,8 @@
 {
 	"compilerOptions": {
 		"incremental": true,
-		"target": "ESNext",
-		"useDefineForClassFields": true,
-		"module": "ESNext",
-		"types": [],
-		"stripInternal": true,
+		"target": "es2020",
+		"module": "es2020",
 		"isolatedModules": true,
 		"forceConsistentCasingInFileNames": true,
 		"strict": true,

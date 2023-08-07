@@ -2,8 +2,8 @@
 	"clearMocks": true,
 	"collectCoverage": true,
 	"collectCoverageFrom": [
-		"src/**/*\\.mts",
-		"!src/**/*\\.d\\.mts"
+		"src/**/*\\.ts",
+		"!src/**/*\\.d\\.ts"
 	],
 	"coverageDirectory": "coverage",
 	"coverageProvider": "v8",
@@ -20,18 +20,14 @@
 		"node"
 	],
 	"moduleNameMapper": {
-		"^(\\.\\.?/.*)\\.mjs$": [
+		"^(\\.\\.?/.*)\\.js$": [
 			"$1.mts",
-			"$0"
-		],
-		"^(\\.\\.?/.*)\\.jsx$": [
-			"$1.tsx",
 			"$0"
 		]
 	},
 	"testEnvironment": "jsdom",
 	"testMatch": [
-		"**/?(*.)+(spec|test).(tsx|mts)"
+		"**/?(*.)+(spec|test).(tsx|ts)"
 	],
 	"transform": {
 		"\\.(tsx?|[mc]ts)$": ["ts-jest", {
