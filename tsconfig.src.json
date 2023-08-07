@@ -3,8 +3,9 @@
 		"composite": true,
 		"outDir": "dist",
 		"rootDir": "src",
+        "noImplicitAny": true
 	},
-	"exclude": [ "src/**/*.spec.tsx", "src/**/*.spec.mts" ],
+	"exclude": [ "src/**/*.spec.ts" ],
 	"extends": "./tsconfig.json",
 	"include": [ "src" ]
 }

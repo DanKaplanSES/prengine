@@ -4,12 +4,10 @@
 		"esModuleInterop": true,
 		"isolatedModules": false,
 		"moduleResolution": "node",
-		"noEmit": true,
 		"types": ["jest"],
-		"jsx": "react-jsx",
-		"jsxImportSource": "jsx"
+        "noImplicitAny": false,
 	},
 	"exclude": [],
 	"extends": "./tsconfig.json",
-	"include": [ "src/**/*.spec.tsx", "src/**/*.spec.mts"]
+	"include": [ "src/**/*.spec.ts"]
 }
